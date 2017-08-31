@@ -49,6 +49,7 @@ public class SwitchChallenges
 
 		private static void challenge2()
 			{
+			boolean userContinue = true;
 			Scanner userInput = new Scanner(System.in);
 			System.out.println("Buenos dias, I am the Magic 8 Ball. Please ask me a yes or no question.");
 			String userQuestion = userInput.nextLine();
@@ -57,35 +58,43 @@ public class SwitchChallenges
 				{
 					case 1:
 							{
-							
+							System.out.println("Yes.");
+							break;
 							}
 					case 2:
 							{
-							
+							System.out.println("No.");
+							break;
 							}
 					case 3:
 							{
-							
+							System.out.println("I need to think about this one further. Wait ten seconds and ask me again.");
+							break;
 							}
 					case 4:
 							{
-							
+							System.out.println("It's definitely possible, but mostly improbable.");
+							break;
 							}
 					case 5:
 							{
-							
+							System.out.println("I'm not even gonna attempt to answer that.");
+							break;
 							}
 					case 6:
 							{
-							
+							System.out.println("Go ask your mom.");
+							break;
 							}
 					case 7:
 							{
-							
+							System.out.println("Yeah, I think so.");
+							break;
 							}
 					case 8:
 							{
-							
+							System.out.println("Nah.");
+							break;
 							}
 				}
 			}
